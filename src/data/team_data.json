@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Arizona Diamondbacks",
+        "abbreviation": "ARI"
+    },
+    {
+        "name": "Atlanta Braves",
+        "abbreviation": "ATL"
+    },
+    {
+        "name": "Baltimore Orioles",
+        "abbreviation": "BAL"
+    },
+    {
+        "name": "Boston Red Sox",
+        "abbreviation": "BOS"
+    },
+    {
+        "name": "Chicago White Sox",
+        "abbreviation": "CWS"
+    },
+    {
+        "name": "Chicago Cubs",
+        "abbreviation": "CHC"
+    },
+    {
+        "name": "Cincinnati Reds",
+        "abbreviation": "CIN"
+    },
+    {
+        "name": "Cleveland Indians",
+        "abbreviation": "CLE"
+    },
+    {
+        "name": "Colorado Rockies",
+        "abbreviation": "COL"
+    },
+    {
+        "name": "Detroit Tigers",
+        "abbreviation": "DET"
+    },
+    {
+        "name": "Houston Astros",
+        "abbreviation": "HOU"
+    },
+    {
+        "name": "Kansas City Royals",
+        "abbreviation": "KC"
+    },
+    {
+        "name": "Los Angeles Angels",
+        "abbreviation": "LAA"
+    },
+    {
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "LAD"
+    },
+    {
+        "name": "Miami Marlins",
+        "abbreviation": "MIA"
+    },
+    {
+        "name": "Milwaukee Brewers",
+        "abbreviation": "MIL"
+    },
+    {
+        "name": "Minnesota Twins",
+        "abbreviation": "MIN"
+    },
+    {
+        "name": "New York Yankees",
+        "abbreviation": "NYY"
+    },
+    {
+        "name": "New York Mets",
+        "abbreviation": "NYM"
+    },
+    {
+        "name": "Oakland Athletics",
+        "abbreviation": "OAK"
+    },
+    {
+        "name": "Philadelphia Phillies",
+        "abbreviation": "PHI"
+    },
+    {
+        "name": "Pittsburgh Pirates",
+        "abbreviation": "PIT"
+    },
+    {
+        "name": "San Diego Padres",
+        "abbreviation": "SD"
+    },
+    {
+        "name": "San Francisco Giants",
+        "abbreviation": "SF"
+    },
+    {
+        "name": "Seattle Mariners",
+        "abbreviation": "SEA"
+    },
+    {
+        "name": "St. Louis Cardinals",
+        "abbreviation": "STL"
+    },
+    {
+        "name": "Tampa Bay Rays",
+        "abbreviation": "TB"
+    },
+    {
+        "name": "Texas Rangers",
+        "abbreviation": "TEX"
+    },
+    {
+        "name": "Toronto Blue Jays",
+        "abbreviation": "TOR"
+    },
+    {
+        "name": "Washington Nationals",
+        "abbreviation": "WSH"
+    }
+]
