@@ -21,6 +21,7 @@ const getRecommendations = (inputStr: string, batterLists: string[]) => {
 
 
 function App() {
+    const [groundBall, setGroundBall] = useState<boolean>(false);
     const [team, setTeam] = useState('ARI');
     const [player, setPlayer] = useState('');
     const [suggestions, setSuggestions] = useState<string[]>([]);
@@ -32,8 +33,25 @@ function App() {
         setSuggestions(newSuggestions);
     }, [player]);
 
+    const onSearchClick = () => {
+        if (groundBall) {
+            navigate(`/result/${player}/${team}/groundball`);
+            return;
+        } else {
+            navigate(`/result/${player}/${team}`);
+            return;
+        }
+    }
+
     return (
         <div>
+            <div style={{ display: 'flex', alignItems: 'center', marginLeft: 10 }}>
+                <input
+                    type='checkbox'
+                    checked={groundBall}
+                    onChange={() => setGroundBall(!groundBall)} />
+                <div style={{ fontSize: '12px' }}>땅볼 타구</div>
+            </div>
             <div style={{ display: 'flex', width: 600}}>
                 <select onChange={(e) => setTeam(e.target.value)}>
                     {team_data.map((team) => (
@@ -44,7 +62,7 @@ function App() {
                     ))}
                 </select>
                 <input type='text' value={player} onChange={(e) => setPlayer(e.target.value)} placeholder="선수 이름" style={{ flex: 'auto' }} />
-                <button onClick={() => navigate(`/result/${player}/${team}`)}><FaSearch /></button>
+                <button onClick={onSearchClick}><FaSearch /></button>
             </div>
             <div style={{ width: 600, height: 40, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: 20, rowGap: 10, columnGap: 20 }}>
                 {suggestions.map((suggestion, index) => (
